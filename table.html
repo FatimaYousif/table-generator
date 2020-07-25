@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+    <style>
+        .container {
+            margin: 10% 0 ;
+            text-align: center;
+        }
+        body
+        {
+            background-image: linear-gradient();
+        }
+        body{
+            background-color: black;
+            color: white;
+        }
+        input
+            {
+                height: 50px;
+                width: 280px;
+                border-radius: 3px;
+                border:1px solid black;
+                margin-top: 3%;
+            }
+
+            button
+            {
+                padding: 0.5em 2em;
+                border:none;
+                color:black;
+                background-color:white;
+                border-radius: 7px;
+                margin-top: 3%;
+            }
+    </style>
+</head>
+
+<body>
+  
+    <div class="container">
+        <h1 >TABLE GENERATOR</h1>
+        <input type="text" id="table" placeholder="enter table"> <br>
+        <input type="text" id="end" placeholder="enter ending number"><br>
+        <button onclick="show()">GENERATE</button>
+        <p style="margin-top: 3%;">
+            <span id="table1" style="color:white;"></span>
+            <span id="here" style="color:white"></span>
+        </p>
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
